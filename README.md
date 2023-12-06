@@ -52,7 +52,7 @@ python sim-csw.py
     │   └── __init__.py
     ├── sim-poly.py                  # code for Simulation 1 
     ├── sim-csw.py                   # code for Simulation 2 - model training 
-    ├── sim-mixedcsw.py              # code for Supplement 8 
+    ├── sim-mixedcsw.py             
     ├── stats.py                     
     ├── utils.py                     
     ├── vis-group-poly.py            # code for Simulation 2 - result visualization
