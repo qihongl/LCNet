@@ -1,6 +1,6 @@
 # LCNet
 
-This repo contains the code for Simulation 1 and Simulation 2. 
+This repo contains the code for Simulation 1 and Simulation 2. The code for simulation 3 is in a separate repo [here](https://github.com/qihongl/meta-model). 
 
 ### to replicate the results: 
 
