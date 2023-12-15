@@ -1,5 +1,11 @@
 # LCNet
 
+This is the repo for the following paper: 
+
+Lu, Q., Nguyen, T. T., Zhang, Q., Hasson, U., Griffiths, T. L., Zacks, J. M., Gershman, S. J., & Norman, K. A. (2023). 
+**Toward a More Biologically Plausible Neural Network Model of Latent Cause Inference.** 
+In arXiv [q-bio.NC]. arXiv. http://arxiv.org/abs/2312.08519 
+
 This repo contains the code for Simulation 1 and Simulation 2. The code for simulation 3 is in a separate repo [here](https://github.com/qihongl/meta-model). 
 
 ### to replicate the results: 
