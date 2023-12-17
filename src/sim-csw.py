@@ -48,7 +48,7 @@ ctx_wt = .6
 dropout_rate = 0.1
 pe_threshold = .8
 buffer_size = 2
-
+w_cur = .8
 n_subjs = 5
 subj_id = 0
 seed_start = 0
@@ -160,7 +160,7 @@ for subj_id in range(n_subjs):
             if t == 0:
                 x_t_sc = to_sqnp(x_t)
             else:
-                x_t_sc = to_sqnp(x_t) * .8 + x_t_sc * .2
+                x_t_sc = to_sqnp(x_t) * w_cur + x_t_sc * (1-w_cur)
             X[i,t] = x_t_sc
 
             # recurrent computation at time t
